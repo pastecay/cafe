@@ -1,0 +1,513 @@
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0 166px;
+}
+
+
+.header {
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav__item {
+    margin-right: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    transition: color .3s linear;
+}
+
+
+
+.cart {
+    padding-right: 10px;
+    height: 50px;
+    position: relative;
+    border-right: 1px solid #fff;
+}
+
+.cart__img {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color .3s linear;
+}
+
+
+
+.phone__txt {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.phone__holder {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #ff7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: background-color .2s linear;
+}
+
+
+
+
+.header__down {
+    position: relative;
+}
+
+
+.header__title {
+    margin-top: 222px;
+    margin-bottom: 12px;
+    position: absolute;
+    left: 0;
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.heade__subtitle {
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.header__suptitle {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open-sans', 'sans-serif';
+}
+
+
+
+
+
+.header__button {
+    background-color: #ff7400;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 14px 28px;
+    color: #fff;
+    font-family: 'Open-sans', 'sans-serif';
+    text-decoration: none;
+    transition: background-color .2s linear;
+}
+
+
+.cards__holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin-top: -100px;
+    margin-right: 31px;
+    padding: 10px 10px;
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    background-color: #fff;
+}
+
+
+
+.card__image {
+    padding-top: 31px;
+    display: flex;
+    justify-content: center;
+}
+
+.card__title {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #2C2C2C;
+}
+
+.card__title span {
+    margin-left: 6px;
+    color: #BC9060;
+}
+
+.card__desc {
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #656363;
+}
+
+
+.history {
+    margin-top: 166px;
+    padding-bottom: 200px;
+}
+
+.history__title {
+    width: 444px;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    color: #2C2C2C;
+    text-align: center;
+}
+
+.history__title span {
+    color: #BC9060;
+}
+
+.history__desc {
+    margin-top: 21px;
+    width: 444px;
+    font-size: 16px;
+    color: #656363;
+    text-align: center;
+}
+
+.history__number {
+    margin-top: 40px;
+    display: flex;
+    width: 444px;
+    justify-content: center;
+}
+
+.number__item {
+    margin-top: 40px;
+    margin-right: 60px;
+    font-size: 40px;
+    text-align: center;
+    color: #BC9060;
+}
+
+
+
+.number__item span {
+    display: block;
+    color: #656363;
+    font-size: 20px;
+}
+
+.history__holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history__images {
+    position: relative;
+    margin: 0 166px;
+}
+
+.images__1 {
+    position: absolute;
+    z-index: 0;
+    top: 5px;
+    left: -500px;
+}
+
+.images__2 {
+    position: absolute;
+    z-index: 3;
+    top: -20px;
+    left: -295px;
+}
+
+.images__3 {
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    left: -130px;
+}
+
+.black__block {
+    padding: 80px 0;
+    background-image: url(../img/black-bg.jpg);
+}
+
+.left__title {
+    margin-bottom: 20px;
+    font-family: 'Tinos', serif;
+    font-size: 52px;
+    font-weight: 400;
+    color: #D67E34;
+}
+
+.left__txt {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Open-sans', 'sans-serif';
+}
+
+.right__btn {
+    background-color: #ff7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: background-color .2s linear;
+}
+
+
+
+.black__holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.dishes__title {
+    padding-top: 130px;
+    margin-bottom: 130px;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    color: #2C2C2C;
+    text-align: center;
+}
+
+.dishes__title span {
+    color: #D67E34;
+}
+
+.pizza__burgers {
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.pizza {
+    margin-right: 20px;
+}
+
+.burger__item {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.burger__txt {
+    margin-left: 20px;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #2C2C2C;
+}
+
+.menu {
+    padding-bottom: 226px;
+    background-image: url(../img/menu-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu__title {
+    padding-top: 100px;
+    padding-bottom: 140px;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+.menu__items {
+    display: flex;
+   
+}
+
+.menu__item {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-right: 20px;
+    width: 30%;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+
+
+.menu__images {
+    position: relative;
+}
+
+.price__img {
+    position: absolute;
+    bottom: 0;
+    right: 82px;
+}
+
+.price__420 {
+    position: absolute;
+    bottom: 32px;
+    right: 106px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+}
+
+.menu__txt {
+    padding-top: 22px;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+}
+
+.menu__sub-txt {
+    padding-top: 17px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Open-sans', 'sans-serif';
+}
+
+.menu__btn {
+    background-color: #ff7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 67px;
+    font-weight: 700;
+    transition: background-color .2s linear;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.coment {
+    padding-bottom: 139px;
+    padding-top: 104px;
+    background-color: #E5E5E5;
+}
+
+.coment__txt {
+    margin: 0 auto;
+    max-width: 920px;
+    font-family: 'Open-sans', 'sans-serif';
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.coment__image {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.coment__img {
+    border-radius: 50px;
+}
+
+.coment__type {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.coment__name {
+    padding-top: 9px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.galary__title {
+    padding-top: 110px;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    color: #2C2C2C;
+    text-align: center;
+}
+
+.galary__title span {
+    color: #D67E34;
+}
+
+.galary__content {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.galary__left {
+    margin-right: 20px;
+}
+
+.galary-up,
+.galary-down {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cook__title {
+    padding-top: 110px;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    color: #2C2C2C;
+    text-align: center;
+}
+
+.cook__title span {
+    color: #D67E34;
+}
+
+.cook__image {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.cook__image img {
+    margin-right: 20px;
+}
+
+
+
+.footer {
+    height: 100vh;
+    margin: 100px 0 0 0;
+    background-image: url(../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
